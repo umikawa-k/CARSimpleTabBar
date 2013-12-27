@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C292D4D18612A0A00771BF7 /* CARSimpleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C292D4C18612A0A00771BF7 /* CARSimpleTabBarController.m */; };
+		2C292D5018612A1C00771BF7 /* CARSimpleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C292D4F18612A1C00771BF7 /* CARSimpleTabBar.m */; };
+		2C292D5318612A2A00771BF7 /* CARSimpleTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C292D5218612A2A00771BF7 /* CARSimpleTabBarItem.m */; };
+		2C292D5518612B4D00771BF7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C292D5418612B4D00771BF7 /* QuartzCore.framework */; };
 		2CD67A621860291F008711B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A611860291F008711B7 /* Foundation.framework */; };
 		2CD67A641860291F008711B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A631860291F008711B7 /* CoreGraphics.framework */; };
 		2CD67A661860291F008711B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A651860291F008711B7 /* UIKit.framework */; };
 		2CD67A6C1860291F008711B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67A6A1860291F008711B7 /* InfoPlist.strings */; };
 		2CD67A6E1860291F008711B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD67A6D1860291F008711B7 /* main.m */; };
 		2CD67A721860291F008711B7 /* CARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD67A711860291F008711B7 /* CARAppDelegate.m */; };
-		2CD67A751860291F008711B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67A731860291F008711B7 /* Main_iPhone.storyboard */; };
-		2CD67A781860291F008711B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67A761860291F008711B7 /* Main_iPad.storyboard */; };
-		2CD67A7B1860291F008711B7 /* CARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD67A7A1860291F008711B7 /* CARViewController.m */; };
 		2CD67A7D1860291F008711B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD67A7C1860291F008711B7 /* Images.xcassets */; };
 		2CD67A841860291F008711B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A831860291F008711B7 /* XCTest.framework */; };
 		2CD67A851860291F008711B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A611860291F008711B7 /* Foundation.framework */; };
@@ -35,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C292D4B18612A0A00771BF7 /* CARSimpleTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARSimpleTabBarController.h; sourceTree = "<group>"; };
+		2C292D4C18612A0A00771BF7 /* CARSimpleTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARSimpleTabBarController.m; sourceTree = "<group>"; };
+		2C292D4E18612A1C00771BF7 /* CARSimpleTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARSimpleTabBar.h; sourceTree = "<group>"; };
+		2C292D4F18612A1C00771BF7 /* CARSimpleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARSimpleTabBar.m; sourceTree = "<group>"; };
+		2C292D5118612A2A00771BF7 /* CARSimpleTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARSimpleTabBarItem.h; sourceTree = "<group>"; };
+		2C292D5218612A2A00771BF7 /* CARSimpleTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARSimpleTabBarItem.m; sourceTree = "<group>"; };
+		2C292D5418612B4D00771BF7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2CD67A5E1860291F008711B7 /* CARSimpleTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARSimpleTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD67A611860291F008711B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CD67A631860291F008711B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,10 +53,6 @@
 		2CD67A6F1860291F008711B7 /* CARSimpleTabBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CARSimpleTabBarDemo-Prefix.pch"; sourceTree = "<group>"; };
 		2CD67A701860291F008711B7 /* CARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARAppDelegate.h; sourceTree = "<group>"; };
 		2CD67A711860291F008711B7 /* CARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARAppDelegate.m; sourceTree = "<group>"; };
-		2CD67A741860291F008711B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2CD67A771860291F008711B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2CD67A791860291F008711B7 /* CARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARViewController.h; sourceTree = "<group>"; };
-		2CD67A7A1860291F008711B7 /* CARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARViewController.m; sourceTree = "<group>"; };
 		2CD67A7C1860291F008711B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CD67A821860291F008711B7 /* CARSimpleTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CARSimpleTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD67A831860291F008711B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C292D5518612B4D00771BF7 /* QuartzCore.framework in Frameworks */,
 				2CD67A641860291F008711B7 /* CoreGraphics.framework in Frameworks */,
 				2CD67A661860291F008711B7 /* UIKit.framework in Frameworks */,
 				2CD67A621860291F008711B7 /* Foundation.framework in Frameworks */,
@@ -103,6 +108,7 @@
 		2CD67A601860291F008711B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C292D5418612B4D00771BF7 /* QuartzCore.framework */,
 				2CD67A611860291F008711B7 /* Foundation.framework */,
 				2CD67A631860291F008711B7 /* CoreGraphics.framework */,
 				2CD67A651860291F008711B7 /* UIKit.framework */,
@@ -116,10 +122,7 @@
 			children = (
 				2CD67A701860291F008711B7 /* CARAppDelegate.h */,
 				2CD67A711860291F008711B7 /* CARAppDelegate.m */,
-				2CD67A731860291F008711B7 /* Main_iPhone.storyboard */,
-				2CD67A761860291F008711B7 /* Main_iPad.storyboard */,
-				2CD67A791860291F008711B7 /* CARViewController.h */,
-				2CD67A7A1860291F008711B7 /* CARViewController.m */,
+				2CD67A9C18602958008711B7 /* CARSimpleTabBar */,
 				2CD67A7C1860291F008711B7 /* Images.xcassets */,
 				2CD67A681860291F008711B7 /* Supporting Files */,
 			);
@@ -153,6 +156,19 @@
 				2CD67A8C1860291F008711B7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD67A9C18602958008711B7 /* CARSimpleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2C292D4B18612A0A00771BF7 /* CARSimpleTabBarController.h */,
+				2C292D4C18612A0A00771BF7 /* CARSimpleTabBarController.m */,
+				2C292D4E18612A1C00771BF7 /* CARSimpleTabBar.h */,
+				2C292D4F18612A1C00771BF7 /* CARSimpleTabBar.m */,
+				2C292D5118612A2A00771BF7 /* CARSimpleTabBarItem.h */,
+				2C292D5218612A2A00771BF7 /* CARSimpleTabBarItem.m */,
+			);
+			path = CARSimpleTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD67A781860291F008711B7 /* Main_iPad.storyboard in Resources */,
 				2CD67A7D1860291F008711B7 /* Images.xcassets in Resources */,
-				2CD67A751860291F008711B7 /* Main_iPhone.storyboard in Resources */,
 				2CD67A6C1860291F008711B7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD67A7B1860291F008711B7 /* CARViewController.m in Sources */,
 				2CD67A6E1860291F008711B7 /* main.m in Sources */,
+				2C292D4D18612A0A00771BF7 /* CARSimpleTabBarController.m in Sources */,
+				2C292D5018612A1C00771BF7 /* CARSimpleTabBar.m in Sources */,
 				2CD67A721860291F008711B7 /* CARAppDelegate.m in Sources */,
+				2C292D5318612A2A00771BF7 /* CARSimpleTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +301,6 @@
 				2CD67A6B1860291F008711B7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2CD67A731860291F008711B7 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CD67A741860291F008711B7 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		2CD67A761860291F008711B7 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CD67A771860291F008711B7 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		2CD67A8C1860291F008711B7 /* InfoPlist.strings */ = {
@@ -475,6 +475,7 @@
 				2CD67A951860291F008711B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CD67A961860291F008711B7 /* Build configuration list for PBXNativeTarget "CARSimpleTabBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				2CD67A981860291F008711B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
