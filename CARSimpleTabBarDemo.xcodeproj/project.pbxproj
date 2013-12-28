@@ -14,6 +14,7 @@
 		2CB0B7BA186D1719001D0E82 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B7B7186D1719001D0E82 /* .gitignore */; };
 		2CB0B7BB186D1719001D0E82 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B7B8186D1719001D0E82 /* LICENSE */; };
 		2CB0B7BC186D1719001D0E82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B7B9186D1719001D0E82 /* README.md */; };
+		2CB0B86A186ECA99001D0E82 /* CARSimpleTabBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B869186ECA99001D0E82 /* CARSimpleTabBar.podspec */; };
 		2CD67A621860291F008711B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A611860291F008711B7 /* Foundation.framework */; };
 		2CD67A641860291F008711B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A631860291F008711B7 /* CoreGraphics.framework */; };
 		2CD67A661860291F008711B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD67A651860291F008711B7 /* UIKit.framework */; };
@@ -49,6 +50,7 @@
 		2CB0B7B7186D1719001D0E82 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		2CB0B7B8186D1719001D0E82 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		2CB0B7B9186D1719001D0E82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		2CB0B869186ECA99001D0E82 /* CARSimpleTabBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CARSimpleTabBar.podspec; sourceTree = SOURCE_ROOT; };
 		2CD67A5E1860291F008711B7 /* CARSimpleTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARSimpleTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD67A611860291F008711B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CD67A631860291F008711B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +142,7 @@
 			children = (
 				2CB0B7B7186D1719001D0E82 /* .gitignore */,
 				2CB0B7B8186D1719001D0E82 /* LICENSE */,
+				2CB0B869186ECA99001D0E82 /* CARSimpleTabBar.podspec */,
 				2CB0B7B9186D1719001D0E82 /* README.md */,
 				2CD67A691860291F008711B7 /* CARSimpleTabBarDemo-Info.plist */,
 				2CD67A6A1860291F008711B7 /* InfoPlist.strings */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD67A7D1860291F008711B7 /* Images.xcassets in Resources */,
+				2CB0B86A186ECA99001D0E82 /* CARSimpleTabBar.podspec in Resources */,
 				2CB0B7BA186D1719001D0E82 /* .gitignore in Resources */,
 				2CB0B7BC186D1719001D0E82 /* README.md in Resources */,
 				2CB0B7BB186D1719001D0E82 /* LICENSE in Resources */,
@@ -408,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CARSimpleTabBarDemo/CARSimpleTabBarDemo-Prefix.pch";
 				INFOPLIST_FILE = "CARSimpleTabBarDemo/CARSimpleTabBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CARSimpleTabBarDemo/CARSimpleTabBarDemo-Prefix.pch";
 				INFOPLIST_FILE = "CARSimpleTabBarDemo/CARSimpleTabBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
