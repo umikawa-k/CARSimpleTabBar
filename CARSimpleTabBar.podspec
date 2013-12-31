@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/CrayonApps/CARSimpleTabBar.git', :tag => "v#{s.version}" }
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source_files = 'CARSimpleTabBar/CARSimpleTabBar.{h,m}'
+  s.source_files = 'CARSimpleTabBar'
   s.requires_arc = true
 end
