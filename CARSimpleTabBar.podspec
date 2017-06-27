@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "CARSimpleTabBar"
   s.version      = "0.9"
-  s.summary      = ""
+  s.summary      = "CARSimpleTabBar"
   s.homepage     = "https://github.com/CrayonApps/CARSimpleTabBar"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "CrayonApps inc." => "hello@crayonapps.com" }
